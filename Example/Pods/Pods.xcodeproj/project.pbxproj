@@ -13,6 +13,8 @@
 		509F16D4C3D9C3AE69AC58839F63DA6B /* JGAlgorithms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C4EB2AB94FE886FD09A5D4DF24B45 /* JGAlgorithms-dummy.m */; };
 		50FD85AFB002A6F38A167EB22A76AC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5A82BC1BEBD8D7F139C6B44647D87876 /* JGLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C3B4642193EDBE7973B15A7D7F6F9B /* JGLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710CF5151E306A6000E20770 /* JGTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 710CF5131E306A6000E20770 /* JGTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710CF5161E306A6000E20770 /* JGTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CF5141E306A6000E20770 /* JGTreeNode.m */; };
 		8135E1CA4517000CB4155DE81293E8BA /* Pods-JGAlgorithms_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04C3628923DD50E0641E44DEB87D5D /* Pods-JGAlgorithms_Tests-dummy.m */; };
 		828A20740B67FC0E5E6CE2917199F8A3 /* JGLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3C6136C23D4C8918D2358EE53A475 /* JGLinkedList.m */; };
 		87FD43AE630183D59B41C099F578E652 /* JGTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FDF330DBC66EA2F9F694C1D6A0AAFB /* JGTree.m */; };
@@ -34,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18BA52FBA72A1F216010447CC6FA1DAD /* Pods_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGAlgorithms_Example.framework; path = "Pods-JGAlgorithms_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19184DB6A47FEBB19A8FE0D3D26C31A5 /* JGAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGAlgorithms.framework; path = JGAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A78F12BE8BEBEFCAD847A4F434D91E8 /* Pods_JGAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGAlgorithms_Tests.framework; path = "Pods-JGAlgorithms_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA52FBA72A1F216010447CC6FA1DAD /* Pods_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19184DB6A47FEBB19A8FE0D3D26C31A5 /* JGAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A78F12BE8BEBEFCAD847A4F434D91E8 /* Pods_JGAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B577A3B40184649935DCF6CA74194E5 /* JGTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JGTree.h; sourceTree = "<group>"; };
 		33FDF330DBC66EA2F9F694C1D6A0AAFB /* JGTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JGTree.m; sourceTree = "<group>"; };
 		34F83705D6B2C23BC7510092678CA6EF /* Pods-JGAlgorithms_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlgorithms_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,12 +51,14 @@
 		4CE3C6136C23D4C8918D2358EE53A475 /* JGLinkedList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JGLinkedList.m; sourceTree = "<group>"; };
 		5238303110E6BCE0D7D249A4CA4E4E91 /* Pods-JGAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		56BBD34CC804189544364DF3A3E8B9AF /* Pods-JGAlgorithms_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlgorithms_Example.release.xcconfig"; sourceTree = "<group>"; };
-		65A9999E1C2D148A531AE57B585851A2 /* Pods-JGAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JGAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
+		65A9999E1C2D148A531AE57B585851A2 /* Pods-JGAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JGAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
 		67E35C6DECD5DB18C9E4A29523E31007 /* Pods-JGAlgorithms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JGAlgorithms_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6F04C3628923DD50E0641E44DEB87D5D /* Pods-JGAlgorithms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGAlgorithms_Tests-dummy.m"; sourceTree = "<group>"; };
+		710CF5131E306A6000E20770 /* JGTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTreeNode.h; sourceTree = "<group>"; };
+		710CF5141E306A6000E20770 /* JGTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTreeNode.m; sourceTree = "<group>"; };
 		7DAA7588DF941CA6510A1A017A2DB5E6 /* Pods-JGAlgorithms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGAlgorithms_Tests-resources.sh"; sourceTree = "<group>"; };
 		900A595793B134D080F238A78B28D236 /* JGAlgorithms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGAlgorithms-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A59BF506825E71C470D3AC5F53BA4D22 /* Pods-JGAlgorithms_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGAlgorithms_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BEFE2EBCFD3468E9436D0344E2924A9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4830ABF4E106FD26AA555BD69068130 /* Pods-JGAlgorithms_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGAlgorithms_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -64,8 +68,8 @@
 		D7C7935F05A7A9FF7474F71DF1CE1838 /* Pods-JGAlgorithms_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGAlgorithms_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E08EB3936E45596AE3DA91BB30818B6A /* JGList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JGList.h; sourceTree = "<group>"; };
 		EE369CC1B7061D443B1B62CB327656BC /* Pods-JGAlgorithms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlgorithms_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0745C4049B64546A9384A7A363FA0A9 /* Pods-JGAlgorithms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JGAlgorithms_Example.modulemap"; sourceTree = "<group>"; };
-		F42DF3FE95CE2A4789E864D88E9FDB21 /* JGAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JGAlgorithms.modulemap; sourceTree = "<group>"; };
+		F0745C4049B64546A9384A7A363FA0A9 /* Pods-JGAlgorithms_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JGAlgorithms_Example.modulemap"; sourceTree = "<group>"; };
+		F42DF3FE95CE2A4789E864D88E9FDB21 /* JGAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JGAlgorithms.modulemap; sourceTree = "<group>"; };
 		F51E6325D33DD8979431E23010A64AB3 /* Pods-JGAlgorithms_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGAlgorithms_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F6F15D95F2276319B6CBB35E1820264B /* Pods-JGAlgorithms_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGAlgorithms_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F91A578D4E3408C83A77BC71F9AED0E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,8 +135,9 @@
 				E08EB3936E45596AE3DA91BB30818B6A /* JGList.h */,
 				1B577A3B40184649935DCF6CA74194E5 /* JGTree.h */,
 				33FDF330DBC66EA2F9F694C1D6A0AAFB /* JGTree.m */,
+				710CF5131E306A6000E20770 /* JGTreeNode.h */,
+				710CF5141E306A6000E20770 /* JGTreeNode.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -170,7 +175,6 @@
 			children = (
 				601ABC16A0F910CFF430E9D2B596EA93 /* Classes */,
 			);
-			name = JGAlgorithms;
 			path = JGAlgorithms;
 			sourceTree = "<group>";
 		};
@@ -263,6 +267,7 @@
 				5A82BC1BEBD8D7F139C6B44647D87876 /* JGLinkedList.h in Headers */,
 				B4B519D8123AC19118EA6C682E9328C8 /* JGList.h in Headers */,
 				0E3AB0596A29D4C9AB317DE765E9BD3B /* JGTree.h in Headers */,
+				710CF5151E306A6000E20770 /* JGTreeNode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +377,7 @@
 			files = (
 				509F16D4C3D9C3AE69AC58839F63DA6B /* JGAlgorithms-dummy.m in Sources */,
 				828A20740B67FC0E5E6CE2917199F8A3 /* JGLinkedList.m in Sources */,
+				710CF5161E306A6000E20770 /* JGTreeNode.m in Sources */,
 				87FD43AE630183D59B41C099F578E652 /* JGTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

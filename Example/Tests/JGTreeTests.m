@@ -7,7 +7,6 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <JGAlgorithms/JGTree.h>
 
 @interface JGTreeTests : XCTestCase
 @property (nonatomic, retain) JGTree* tree;
@@ -27,23 +26,23 @@
     [super setUp];
     _tree = [[JGTree alloc] init];
     
-    Node * F = [[JGTree alloc] init];
+    JGTreeNode * F = [[JGTreeNode alloc] init];
     F.data = @"F";
-    Node * B = [[JGTree alloc] init];
+    JGTreeNode * B = [[JGTreeNode alloc] init];
     B.data = @"B";
-    Node * G = [[JGTree alloc] init];
+    JGTreeNode * G = [[JGTreeNode alloc] init];
     G.data = @"G";
-    Node * A = [[JGTree alloc] init];
+    JGTreeNode * A = [[JGTreeNode alloc] init];
     A.data = @"A";
-    Node * D = [[JGTree alloc] init];
+    JGTreeNode * D = [[JGTreeNode alloc] init];
     D.data = @"D";
-    Node * I = [[JGTree alloc] init];
+    JGTreeNode * I = [[JGTreeNode alloc] init];
     I.data = @"I";
-    Node * C = [[JGTree alloc] init];
+    JGTreeNode * C = [[JGTreeNode alloc] init];
     C.data = @"C";
-    Node * E = [[JGTree alloc] init];
+    JGTreeNode * E = [[JGTreeNode alloc] init];
     E.data = @"E";
-    Node * H = [[JGTree alloc] init];
+    JGTreeNode * H = [[JGTreeNode alloc] init];
     H.data = @"H";
     
     F.left = B;
@@ -55,6 +54,13 @@
     G.right = I;
     I.left = H;
     
+    /**
+     * This is to initialize the tree without going into any of it's
+     * internal mechanisms of criteria-adding. It will ensure that the
+     * transverse test are consistent to the tree schematics up in the 
+     * header withouth adding any noise. However, this will need to be
+     * resolved differently and the JGTreeNode set to private again.
+     */
     [_tree performSelector: NSSelectorFromString(@"setRoot:")
                 withObject: F
                 afterDelay: 0
@@ -67,6 +73,7 @@
     [_tree add:@(3)];
     [_tree add:@(4)];
     [_tree add:@(5)];
+    //TODO: Finish comparator implementation.
 }
 
 - (void)testInOrder {

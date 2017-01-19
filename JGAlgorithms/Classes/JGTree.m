@@ -7,23 +7,14 @@
 //
 
 #import "JGTree.h"
+#import "JGTreeNode.h"
 
-#pragma mark JGTreeNode -- Private
-@interface JGTreeNode : NSObject
-
-@property(nonatomic, retain) id data;
-@property(nonatomic,retain) JGTreeNode * left;
-@property(nonatomic,retain) JGTreeNode * right;
-@end
-
-@implementation JGTreeNode
-@end
-
-
-#pragma mark JGTree -- Implementation
 @interface JGTree (){
+    
 }
+
 @property(nonatomic,retain) JGTreeNode * root;
+
 @end
 
 @implementation JGTree
