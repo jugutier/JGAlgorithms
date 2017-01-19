@@ -1,9 +1,9 @@
 {
   "name": "JGAlgorithms",
   "version": "0.1.0",
-  "summary": "A short description of JGAlgorithms.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JGAlgorithms",
+  "summary": "Support advanced algorithms and data structures for iOS.",
+  "description": "Support advanced algorithms and data structures. Namely, Trees, graph and transversing algorithms. Fully implemented in native Objective-C, flexible to be used with your own objects by implementing comparators when necessary and tested!",
+  "homepage": "https://github.com/jugutier/JGAlgorithms",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Julian Gutierrez Ferrara": "juliangutierrezferrara@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JGAlgorithms.git",
+    "git": "https://github.com/jugutier/JGAlgorithms.git",
     "tag": "0.1.0"
   },
   "platforms": {

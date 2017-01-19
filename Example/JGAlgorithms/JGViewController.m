@@ -7,6 +7,7 @@
 //
 
 #import "JGViewController.h"
+#import <JGAlgorithms/JGLinkedList.h>
 
 @interface JGViewController ()
 

@@ -2,12 +2,13 @@
 //  Tree.m
 //  JGAlgorithms
 //
-//  Created by Julian Gutierrez on 12/20/16.
-//  Copyright © 2016 JGAlgorithms. All rights reserved.
+//  Created by Julian Gutierrez Ferrara on 12/20/16.
+//  Copyright (c) 2017 Julian Gutierrez Ferrara. All rights reserved.
 //
 
 #import "JGTree.h"
 
+#pragma mark JGTreeNode -- Private
 @interface JGTreeNode : NSObject
 
 @property(nonatomic, retain) id data;
@@ -19,7 +20,7 @@
 @end
 
 
-
+#pragma mark JGTree -- Implementation
 @interface JGTree (){
 }
 @property(nonatomic,retain) JGTreeNode * root;

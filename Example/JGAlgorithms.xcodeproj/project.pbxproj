@@ -20,7 +20,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6003F5BC195388D20070C39A /* JGTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* JGTreeTests.m */; };
+		717E281F1E306621006FB798 /* JGListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E281E1E306621006FB798 /* JGListTests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E1FDA61B7880F02B1D8C6BCC /* Pods_JGAlgorithms_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAD1E845BAE0EB1C70B7A8 /* Pods_JGAlgorithms_Example.framework */; };
 /* End PBXBuildFile section */
@@ -55,16 +56,17 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* JGTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGTreeTests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D550B33E8F6A0EB7CD1A08B /* JGAlgorithms.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JGAlgorithms.podspec; path = ../JGAlgorithms.podspec; sourceTree = "<group>"; };
+		6D550B33E8F6A0EB7CD1A08B /* JGAlgorithms.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGAlgorithms.podspec; path = ../JGAlgorithms.podspec; sourceTree = "<group>"; };
+		717E281E1E306621006FB798 /* JGListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGListTests.m; sourceTree = "<group>"; };
 		77AAD1E845BAE0EB1C70B7A8 /* Pods_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		865B51B910FF4BE2037F1901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		865B51B910FF4BE2037F1901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B572CEA30C49B7009D38FD64 /* Pods-JGAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAlgorithms_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGAlgorithms_Tests/Pods-JGAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D062770854C72FDA9AF73BEC /* Pods_JGAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FF19602B9EFE0447CF3F9D /* Pods-JGAlgorithms_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAlgorithms_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGAlgorithms_Example/Pods-JGAlgorithms_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7F1A2EF841F1DED81E2C478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7F1A2EF841F1DED81E2C478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5BB195388D20070C39A /* JGTreeTests.m */,
+				717E281E1E306621006FB798 /* JGListTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -400,7 +403,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				717E281F1E306621006FB798 /* JGListTests.m in Sources */,
+				6003F5BC195388D20070C39A /* JGTreeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

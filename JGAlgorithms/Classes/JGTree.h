@@ -2,15 +2,15 @@
 //  JGTree.h
 //  JGAlgorithms
 //
-//  Created by Julian Gutierrez on 12/20/16.
-//  Copyright © 2016 JGAlgorithms. All rights reserved.
+//  Created by Julian Gutierrez Ferrara on 12/20/16.
+//  Copyright (c) 2017 Julian Gutierrez Ferrara. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface JGTree : NSObject
 
-@property(nonatomic,retain) NSComparator comparator;
+@property(nonatomic, copy) NSComparator comparator;
 
 -(void)add:(id)element;
 

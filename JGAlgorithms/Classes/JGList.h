@@ -3,7 +3,7 @@
 //  JGAlgorithms
 //
 //  Created by Julian Gutierrez Ferrara on 1/18/17.
-//  Copyright © 2017 JGAlgorithms. All rights reserved.
+//  Copyright (c) 2017 Julian Gutierrez Ferrara. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

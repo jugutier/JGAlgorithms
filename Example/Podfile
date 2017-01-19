@@ -6,7 +6,7 @@ target 'JGAlgorithms_Example' do
   target 'JGAlgorithms_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-  pod 'Expecta'
+#    pod 'Specta'
+#  pod 'Expecta'
   end
 end
