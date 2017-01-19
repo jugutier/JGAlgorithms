@@ -6,17 +6,30 @@
 //  Copyright © 2016 JGAlgorithms. All rights reserved.
 //
 
-#import "Tree.h"
-@interface Tree (){
-}
-@property(nonatomic,retain) Node * root;
+#import "JGTree.h"
+
+@interface JGTreeNode : NSObject
+
+@property(nonatomic, retain) id data;
+@property(nonatomic,retain) JGTreeNode * left;
+@property(nonatomic,retain) JGTreeNode * right;
 @end
 
-@implementation Tree
+@implementation JGTreeNode
+@end
+
+
+
+@interface JGTree (){
+}
+@property(nonatomic,retain) JGTreeNode * root;
+@end
+
+@implementation JGTree
 
 -(void)add:(id)element
 {
-    Node * node = [[Node alloc]init];
+    JGTreeNode * node = [[JGTreeNode alloc]init];
     if(!_comparator)
     {
         node.data = element;
@@ -55,7 +68,7 @@
     return [ret copy];
 }
 
--(void) inOrderWithArray:(NSMutableArray *) arr andNode:(Node *)node
+-(void) inOrderWithArray:(NSMutableArray *) arr andNode:(JGTreeNode *)node
 {
     
     if(node.left)
@@ -86,7 +99,7 @@
     return [ret copy];
 }
 
--(void) postOrderWithArray:(NSMutableArray *) arr andNode:(Node *)node
+-(void) postOrderWithArray:(NSMutableArray *) arr andNode:(JGTreeNode *)node
 {
     if(node.left)
     {
@@ -114,7 +127,7 @@
     return [ret copy];
 }
 
--(void) preOrderWithArray:(NSMutableArray *) arr andNode:(Node *)node
+-(void) preOrderWithArray:(NSMutableArray *) arr andNode:(JGTreeNode *)node
 {
     if(node.data)
     {

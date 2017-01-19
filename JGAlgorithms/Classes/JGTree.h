@@ -1,5 +1,5 @@
 //
-//  Tree.h
+//  JGTree.h
 //  JGAlgorithms
 //
 //  Created by Julian Gutierrez on 12/20/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Node.h"
 
-@interface Tree : NSObject
+@interface JGTree : NSObject
 
 @property(nonatomic,retain) NSComparator comparator;
 

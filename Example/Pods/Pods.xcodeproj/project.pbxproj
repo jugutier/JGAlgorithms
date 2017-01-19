@@ -51,12 +51,11 @@
 		69744BBCFFA6A5EB2527AAB7BF4ED1C6 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 621D45D57ACA8E38D852A1E07D2AD679 /* SpectaDSL.m */; };
 		6C4D5E7D614833026E02F1821DB86650 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1EC781C67B94698BC0FD79F6926656 /* Specta-dummy.m */; };
 		6E64AD0318DCEBBD1E2FFD0E84117113 /* Pods-JGAlgorithms_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E35C6DECD5DB18C9E4A29523E31007 /* Pods-JGAlgorithms_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		717E28141E305706006FB798 /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E28081E3056F3006FB798 /* LinkedList.h */; };
-		717E28151E305706006FB798 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E28091E3056F3006FB798 /* LinkedList.m */; };
-		717E28161E305706006FB798 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E280A1E3056F3006FB798 /* Node.h */; };
-		717E28171E305706006FB798 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E280B1E3056F3006FB798 /* Node.m */; };
-		717E28181E305706006FB798 /* Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E280C1E3056F3006FB798 /* Tree.h */; };
-		717E28191E305706006FB798 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E280D1E3056F3006FB798 /* Tree.m */; };
+		717E28141E305706006FB798 /* JGLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E28081E3056F3006FB798 /* JGLinkedList.h */; };
+		717E28151E305706006FB798 /* JGLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E28091E3056F3006FB798 /* JGLinkedList.m */; };
+		717E28181E305706006FB798 /* JGTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E280C1E3056F3006FB798 /* JGTree.h */; };
+		717E28191E305706006FB798 /* JGTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E280D1E3056F3006FB798 /* JGTree.m */; };
+		717E281B1E305B4B006FB798 /* JGList.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E281A1E305B4B006FB798 /* JGList.h */; };
 		73865B251EF39F172968991120B0F359 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D5F98443188468F5CFE556EC251738 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73D4F2DCF837439A3760DC76A65AC31C /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C1DD363D5966F42C4D802641B4CEEA /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5966F05CD1198629BF447653497239 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -215,12 +214,11 @@
 		68F820C46D336F1E6EB733BFC4374C51 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		6F04C3628923DD50E0641E44DEB87D5D /* Pods-JGAlgorithms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGAlgorithms_Tests-dummy.m"; sourceTree = "<group>"; };
 		704CDA1E2D73288DAC9C4FDBA881844E /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
-		717E28081E3056F3006FB798 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
-		717E28091E3056F3006FB798 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
-		717E280A1E3056F3006FB798 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		717E280B1E3056F3006FB798 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		717E280C1E3056F3006FB798 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		717E280D1E3056F3006FB798 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		717E28081E3056F3006FB798 /* JGLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGLinkedList.h; sourceTree = "<group>"; };
+		717E28091E3056F3006FB798 /* JGLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGLinkedList.m; sourceTree = "<group>"; };
+		717E280C1E3056F3006FB798 /* JGTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTree.h; sourceTree = "<group>"; };
+		717E280D1E3056F3006FB798 /* JGTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTree.m; sourceTree = "<group>"; };
+		717E281A1E305B4B006FB798 /* JGList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGList.h; sourceTree = "<group>"; };
 		7687931B86D55C2A3B7570964EEFDEAB /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		78F5D31437776FFE9BBCAE5FD37C912E /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		79476B660CA0150E072A597FD1928591 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
@@ -397,12 +395,8 @@
 		3F6EA1DCEE251E4CE67DC656C6965BEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				717E28081E3056F3006FB798 /* LinkedList.h */,
-				717E28091E3056F3006FB798 /* LinkedList.m */,
-				717E280A1E3056F3006FB798 /* Node.h */,
-				717E280B1E3056F3006FB798 /* Node.m */,
-				717E280C1E3056F3006FB798 /* Tree.h */,
-				717E280D1E3056F3006FB798 /* Tree.m */,
+				717E281C1E305C0F006FB798 /* List */,
+				717E281D1E305D60006FB798 /* Tree */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -531,6 +525,25 @@
 				8B13E7675CDFD3E42F7D76EFC061BDE1 /* Support Files */,
 			);
 			path = Expecta;
+			sourceTree = "<group>";
+		};
+		717E281C1E305C0F006FB798 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				717E28081E3056F3006FB798 /* JGLinkedList.h */,
+				717E28091E3056F3006FB798 /* JGLinkedList.m */,
+				717E281A1E305B4B006FB798 /* JGList.h */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		717E281D1E305D60006FB798 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				717E280C1E3056F3006FB798 /* JGTree.h */,
+				717E280D1E3056F3006FB798 /* JGTree.m */,
+			);
+			name = Tree;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -705,10 +718,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717E28181E305706006FB798 /* Tree.h in Headers */,
+				717E281B1E305B4B006FB798 /* JGList.h in Headers */,
+				717E28181E305706006FB798 /* JGTree.h in Headers */,
 				960FC423D9E7A8F07C9E687486866C88 /* JGAlgorithms-umbrella.h in Headers */,
-				717E28161E305706006FB798 /* Node.h in Headers */,
-				717E28141E305706006FB798 /* LinkedList.h in Headers */,
+				717E28141E305706006FB798 /* JGLinkedList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,10 +958,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717E28191E305706006FB798 /* Tree.m in Sources */,
-				717E28151E305706006FB798 /* LinkedList.m in Sources */,
+				717E28191E305706006FB798 /* JGTree.m in Sources */,
+				717E28151E305706006FB798 /* JGLinkedList.m in Sources */,
 				2AD77A19AAD67ECA91204817952C1F27 /* JGAlgorithms-dummy.m in Sources */,
-				717E28171E305706006FB798 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

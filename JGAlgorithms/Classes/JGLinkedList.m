@@ -1,29 +1,36 @@
 //
-//  LinkedList.m
+//  JGLinkedList.m
 //  JGAlgorithms
 //
 //  Created by Julian Gutierrez Ferrara on 1/8/17.
 //  Copyright © 2017 JGAlgorithms. All rights reserved.
 //
 
-#import "LinkedList.h"
+#import "JGLinkedList.h"
 
-@interface ListNode : NSObject
+#pragma mark JGListNode -- Private
+/**
+ * Internal node class does not need to be offered
+ * to the user of this library.
+ */
+@interface JGListNode : NSObject
 
 @property (nonatomic, retain) id data;
-@property (nonatomic,retain) ListNode * tail;
+@property (nonatomic,retain) JGListNode * tail;
 
 @end
-@implementation ListNode
 
+@implementation JGListNode
 @end
-@interface LinkedList(){
-    ListNode * head;
+
+#pragma mark JGLinkedList -- Implementation
+@interface JGLinkedList(){
+    JGListNode * head;
     NSUInteger count;
 }
 
 @end
-@implementation LinkedList
+@implementation JGLinkedList
 
 -(id)elementAtIntex:(NSUInteger) index
 {
@@ -34,7 +41,7 @@
     return [self find:head index:index];
 }
 
--(id)find:(ListNode *)node index:(NSUInteger)index
+-(id)find:(JGListNode *)node index:(NSUInteger)index
 {
     if(index == 0)
     {
@@ -45,7 +52,7 @@
 
 -(void)add:(id)element
 {
-    ListNode * node = [[ListNode alloc]init];
+    JGListNode * node = [[JGListNode alloc]init];
     node.data = element;
     node.tail = head;
     head = node;
@@ -54,8 +61,8 @@
 
 -(void)remove:(id)element
 {
-    ListNode *previous = nil;
-    ListNode *current = head;
+    JGListNode *previous = nil;
+    JGListNode *current = head;
     
     while(![current.data isEqual:element])
     {
