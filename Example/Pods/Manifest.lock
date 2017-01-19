@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - JGAlgorithms (0.1.0)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta
+  - JGAlgorithms (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  JGAlgorithms:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  JGAlgorithms: 9ecb0302de86c744cf149991b712fe69bf6e54b8
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: d76eed177e9be5fce1c5e8da7c31f78e29c26f8f
+
+COCOAPODS: 1.1.1

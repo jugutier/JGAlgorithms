@@ -9,24 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = 'JGAlgorithms'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JGAlgorithms.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Support advanced algorithms and data structures for iOS.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Support advanced algorithms and data structures. Namely, Trees, graph and transversing algorithms. Fully implemented in native Objective-C, flexible to be used with your own objects by implementing comparators when necessary and tested!
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JGAlgorithms'
+  s.homepage         = 'https://github.com/jugutier/JGAlgorithms'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julian Gutierrez Ferrara' => 'juliangutierrezferrara@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JGAlgorithms.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/jugutier/JGAlgorithms.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
