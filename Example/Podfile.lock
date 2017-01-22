@@ -1,5 +1,5 @@
 PODS:
-  - JGAlgorithms (0.1.0)
+  - JGAlgorithms (0.0.2)
 
 DEPENDENCIES:
   - JGAlgorithms (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JGAlgorithms: 4393d880bb2558d10638952b9d5af0c57e2a533e
+  JGAlgorithms: c623775d0abc9184f037e7583e2ec6231ad3c869
 
 PODFILE CHECKSUM: 9824f262998acae48d0f4c803c0437d5732ed88f
 

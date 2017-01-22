@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Nothing visual to display yet. Please see the tests and classes offered.");
-    NSLog(@"Testing Travis-CI");
+    JGLinkedList * list = [[JGLinkedList alloc] init];
 }
 
 - (void)didReceiveMemoryWarning

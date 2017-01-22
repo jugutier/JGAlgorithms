@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JGAlgorithms'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Support advanced algorithms and data structures for iOS.'
   s.description      = <<-DESC
 Support advanced algorithms and data structures. Namely, Trees, graph and transversing algorithms. Fully implemented in native Objective-C, flexible to be used with your own objects by implementing comparators when necessary and tested!

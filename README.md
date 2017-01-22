@@ -1,6 +1,6 @@
 # JGAlgorithms
 
-[![CI Status](http://img.shields.io/travis/Julian Gutierrez Ferrara/JGAlgorithms.svg?style=flat)](https://travis-ci.org/Julian Gutierrez Ferrara/JGAlgorithms)
+[![CI Status](http://img.shields.io/travis/jugutier/JGAlgorithms.svg?style=flat)](https://travis-ci.org/jugutier/JGAlgorithms)
 [![Version](https://img.shields.io/cocoapods/v/JGAlgorithms.svg?style=flat)](http://cocoapods.org/pods/JGAlgorithms)
 [![License](https://img.shields.io/cocoapods/l/JGAlgorithms.svg?style=flat)](http://cocoapods.org/pods/JGAlgorithms)
 [![Platform](https://img.shields.io/cocoapods/p/JGAlgorithms.svg?style=flat)](http://cocoapods.org/pods/JGAlgorithms)
