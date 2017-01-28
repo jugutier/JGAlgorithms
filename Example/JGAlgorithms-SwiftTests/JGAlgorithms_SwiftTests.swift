@@ -8,6 +8,7 @@
 
 import XCTest
 @testable import JGAlgorithms_Swift
+import JGAlgorithms
 
 class JGAlgorithms_SwiftTests: XCTestCase {
     
@@ -22,8 +23,11 @@ class JGAlgorithms_SwiftTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let list = JGLinkedList()
+        
+        list.add("I'm Obj-C code running on Swift!!")
+        list.add("Hello World !")
+        NSLog("%@", list)
     }
     
     func testPerformanceExample() {

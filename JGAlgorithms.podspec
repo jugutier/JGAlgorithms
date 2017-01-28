@@ -20,7 +20,7 @@ Support advanced algorithms and data structures. Namely, Trees, graph and transv
   s.author           = { 'Julian Gutierrez Ferrara' => 'juliangutierrezferrara@gmail.com' }
   s.source           = { :git => 'https://github.com/jugutier/JGAlgorithms.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'JGAlgorithms/Classes/**/*'
   

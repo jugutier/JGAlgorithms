@@ -24,7 +24,8 @@
 @end
 
 #pragma mark JGLinkedList -- Implementation
-@interface JGLinkedList(){
+@interface JGLinkedList()
+{
     JGListNode * head;
     NSUInteger count;
 }
@@ -82,6 +83,26 @@
 -(NSUInteger) count
 {
     return count;
+}
+    
+- (NSString *)description
+{
+    NSMutableString * buffer = [[NSMutableString alloc] init];
+    
+    JGListNode * current = head;
+    [buffer appendString:@"["];
+    while (current != nil)
+    {
+        [buffer appendString:[current.data description]];
+        current = current.tail;
+        if(current)
+        {
+            [buffer appendString:@","];
+        }
+    }
+    [buffer appendString:@"]"];
+    
+    return [buffer description];
 }
 
 @end

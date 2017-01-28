@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_app_JGAlgorithms_SwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_app_JGAlgorithms_SwiftVersionString[];
+

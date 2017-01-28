@@ -18,15 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
     NSLog(@"Nothing visual to display yet. Please see the tests and classes offered.");
     JGLinkedList * list = [[JGLinkedList alloc] init];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [list add:@"I'm Obj-C code running on Obj-C!!"];
+    [list add:@"Hello World!"];
+    NSLog(@"%@", list);
 }
 
 @end

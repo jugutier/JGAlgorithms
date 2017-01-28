@@ -1,0 +1,6 @@
+framework module Pods_app_JGAlgorithms_SwiftTests {
+  umbrella header "Pods-app-JGAlgorithms-SwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
