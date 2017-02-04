@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <JGAlgorithms/JGTree+Protected.h>
 
 @interface JGTreeTests : XCTestCase
 @property (nonatomic, retain) JGTree* tree;
@@ -54,17 +55,7 @@
     G.right = I;
     I.left = H;
     
-    /**
-     * This is to initialize the tree without going into any of it's
-     * internal mechanisms of criteria-adding. It will ensure that the
-     * transverse test are consistent to the tree schematics up in the 
-     * header withouth adding any noise. However, this will need to be
-     * resolved differently and the JGTreeNode set to private again.
-     */
-    [_tree performSelector: NSSelectorFromString(@"setRoot:")
-                withObject: F
-                afterDelay: 0
-     ];
+    [_tree setRoot:F];
     
 }
 

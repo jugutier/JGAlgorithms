@@ -13,7 +13,9 @@
 #import "JGLinkedList.h"
 #import "JGList.h"
 #import "JGTree.h"
-#import "JGTreeNode.h"
+#import "JGGraph.h"
+#import "JGTree+Protected.h"
+
 
 FOUNDATION_EXPORT double JGAlgorithmsVersionNumber;
 FOUNDATION_EXPORT const unsigned char JGAlgorithmsVersionString[];
