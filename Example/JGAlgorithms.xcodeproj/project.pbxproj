@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F7D073F89049A1A3B68B2E8 /* Pods_JGAlgorithms_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D062770854C72FDA9AF73BEC /* Pods_JGAlgorithms_Tests.framework */; };
 		125358385D5B0FB55B098B9D /* Pods_app_JGAlgorithms_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731C24A27DEC0A1689D7971F /* Pods_app_JGAlgorithms_SwiftTests.framework */; };
 		2135B188B7D7FCDE8E167E47 /* Pods_app_JGAlgorithms_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE77D3435ECA052136B7B1DC /* Pods_app_JGAlgorithms_Swift.framework */; };
 		3A4F1F070040A9416FB82AF7 /* Pods_app_JGAlgorithms_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF9345055BE812A7BC7860D /* Pods_app_JGAlgorithms_Tests.framework */; };
@@ -37,7 +36,6 @@
 		71BFAB4C1E35A07D00F63D6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		71BFAB4D1E35A08200F63D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E1FDA61B7880F02B1D8C6BCC /* Pods_JGAlgorithms_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAD1E845BAE0EB1C70B7A8 /* Pods_JGAlgorithms_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,17 +94,14 @@
 		71B3C56F1E35958B00AAC5A1 /* JGAlgorithms_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGAlgorithms_SwiftTests.swift; sourceTree = "<group>"; };
 		71B3C5711E35958B00AAC5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BFAB451E359F5600F63D6C /* JGAlgorithms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JGAlgorithms.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JGAlgorithms-eeuuvzlxjkedgeanlwwgaffnbnmn/Build/Products/Debug-iphonesimulator/JGAlgorithms/JGAlgorithms.framework"; sourceTree = "<group>"; };
-		71BFAB491E35A06400F63D6C /* Pods_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_JGAlgorithms_Example.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JGAlgorithms-eeuuvzlxjkedgeanlwwgaffnbnmn/Build/Products/Debug-iphonesimulator/Pods_JGAlgorithms_Example.framework"; sourceTree = "<group>"; };
 		731C24A27DEC0A1689D7971F /* Pods_app_JGAlgorithms_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_JGAlgorithms_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		731C565E0A173BE533DD64A6 /* Pods_app_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_JGAlgorithms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77AAD1E845BAE0EB1C70B7A8 /* Pods_JGAlgorithms_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865B51B910FF4BE2037F1901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A66E794C03996C5367CA56F0 /* Pods-app-JGAlgorithms-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-JGAlgorithms-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-app-JGAlgorithms-SwiftTests/Pods-app-JGAlgorithms-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE4D2DE8417B553637431576 /* Pods-app-JGAlgorithms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-JGAlgorithms_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-app-JGAlgorithms_Tests/Pods-app-JGAlgorithms_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AFF9345055BE812A7BC7860D /* Pods_app_JGAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_JGAlgorithms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572CEA30C49B7009D38FD64 /* Pods-JGAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAlgorithms_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JGAlgorithms_Tests/Pods-JGAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D062770854C72FDA9AF73BEC /* Pods_JGAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlgorithms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC515FFEEA299692066553F /* Pods-app-JGAlgorithms-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-JGAlgorithms-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app-JGAlgorithms-Swift/Pods-app-JGAlgorithms-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		DE77D3435ECA052136B7B1DC /* Pods_app_JGAlgorithms_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_JGAlgorithms_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED18DC80BE9F86116889F8E7 /* Pods-app-JGAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-JGAlgorithms_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app-JGAlgorithms_Tests/Pods-app-JGAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,7 +116,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E1FDA61B7880F02B1D8C6BCC /* Pods_JGAlgorithms_Example.framework in Frameworks */,
 				550311D6026229121B4D3891 /* Pods_app_JGAlgorithms_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,7 +127,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0F7D073F89049A1A3B68B2E8 /* Pods_JGAlgorithms_Tests.framework in Frameworks */,
 				3A4F1F070040A9416FB82AF7 /* Pods_app_JGAlgorithms_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,14 +198,11 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				71BFAB491E35A06400F63D6C /* Pods_JGAlgorithms_Example.framework */,
 				71BFAB451E359F5600F63D6C /* JGAlgorithms.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				77AAD1E845BAE0EB1C70B7A8 /* Pods_JGAlgorithms_Example.framework */,
-				D062770854C72FDA9AF73BEC /* Pods_JGAlgorithms_Tests.framework */,
 				DE77D3435ECA052136B7B1DC /* Pods_app_JGAlgorithms_Swift.framework */,
 				731C565E0A173BE533DD64A6 /* Pods_app_JGAlgorithms_Example.framework */,
 				731C24A27DEC0A1689D7971F /* Pods_app_JGAlgorithms_SwiftTests.framework */,

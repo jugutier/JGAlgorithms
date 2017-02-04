@@ -10,7 +10,11 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/JGAlgorithms.xcworkspace -scheme JGAlgorithms-Example -sdk iphonesimulator10.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+#1 - Test Obj-C example
+- set -o pipefail && xcodebuild test -workspace Example/JGAlgorithms.xcworkspace -scheme JGAlgorithms-Example -destination 'id=AD8E8C76-910E-437D-88C2-4D6F6EBE3355' -sdk iphonesimulator10.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+#2 - Test Swift example
+- set -o pipefail && xcodebuild test -workspace Example/JGAlgorithms.xcworkspace -scheme JGAlgorithms-Swift -destination 'id=AD8E8C76-910E-437D-88C2-4D6F6EBE3355' -sdk iphonesimulator10.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+#3 - Lint library
 - pod lib lint
 
 addons:
