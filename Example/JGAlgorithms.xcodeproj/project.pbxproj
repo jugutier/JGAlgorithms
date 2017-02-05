@@ -24,6 +24,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* JGTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* JGTreeTests.m */; };
+		712D4D8D1E46B5C60082AC4D /* JGGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 712D4D8B1E46B5C30082AC4D /* JGGraphTests.m */; };
 		7170979A1E3547690027B63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717097981E3547690027B63C /* LaunchScreen.storyboard */; };
 		717E281F1E306621006FB798 /* JGListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717E281E1E306621006FB798 /* JGListTests.m */; };
 		71B3C55B1E35958B00AAC5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3C55A1E35958B00AAC5A1 /* AppDelegate.swift */; };
@@ -81,6 +82,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D550B33E8F6A0EB7CD1A08B /* JGAlgorithms.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGAlgorithms.podspec; path = ../JGAlgorithms.podspec; sourceTree = "<group>"; };
 		703D149E90CA98FB46CC291B /* Pods-app-JGAlgorithms-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-JGAlgorithms-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-app-JGAlgorithms-Swift/Pods-app-JGAlgorithms-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		712D4D8B1E46B5C30082AC4D /* JGGraphTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGGraphTests.m; sourceTree = "<group>"; };
 		717097991E3547690027B63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		717E281E1E306621006FB798 /* JGListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGListTests.m; sourceTree = "<group>"; };
 		71B3C5581E35958B00AAC5A1 /* JGAlgorithms-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JGAlgorithms-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +245,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* JGTreeTests.m */,
 				717E281E1E306621006FB798 /* JGListTests.m */,
+				712D4D8B1E46B5C30082AC4D /* JGGraphTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			name = "ObjC Tests";
@@ -666,6 +669,7 @@
 			files = (
 				717E281F1E306621006FB798 /* JGListTests.m in Sources */,
 				6003F5BC195388D20070C39A /* JGTreeTests.m in Sources */,
+				712D4D8D1E46B5C60082AC4D /* JGGraphTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -869,7 +873,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -898,7 +901,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);

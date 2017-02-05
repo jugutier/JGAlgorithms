@@ -2,11 +2,9 @@
 //  JGTreeNode.h
 //  Pods
 //
-//  Created by Julian Gutierrez on 1/18/17.
+//  Created by Julian Gutierrez on 2/4/17.
 //
 //
-
-#import <Foundation/Foundation.h>
 
 @interface JGTreeNode : NSObject
 

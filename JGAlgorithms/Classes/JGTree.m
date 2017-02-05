@@ -7,7 +7,7 @@
 //
 
 #import "JGTree.h"
-#import "JGTreeNode.h"
+#import "JGTree+Protected.h"
 
 @interface JGTree (){
     
