@@ -22,18 +22,17 @@
 
 - (BOOL)isEqual:(id)other
 {
-    if (other == self) {
-        return YES;
-    } else if (![super isEqual:other]) {
-        return NO;
-    } else {
-        return [_data isEqual:other];
-    }
+    return [_data isEqual:other];
 }
 
 - (NSUInteger)hash
 {
     return [_data hash];
+}
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"[data = %@, neighbors = %@ ]", _data, _neighbors];
 }
 
 @end

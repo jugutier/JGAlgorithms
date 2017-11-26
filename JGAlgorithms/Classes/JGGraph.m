@@ -17,6 +17,15 @@
 
 @implementation JGGraph
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _vertexes = [NSMutableArray new];
+    }
+    return self;
+}
+
 -(BOOL)isAdjacentVertex:(id)x to:(id)y
 {
     NSArray * neighborsOfX = [self neighbors:x];

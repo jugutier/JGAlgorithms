@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         list.add("I'm Obj-C code running on Swift!!")
         list.add("Hello World !")
-        NSLog("%@", list)
+        print("%@", list)
         
     }
 }

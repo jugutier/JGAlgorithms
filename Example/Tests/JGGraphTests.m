@@ -20,7 +20,6 @@
     [_g addVertex:@"A"];
     [_g addVertex:@"B"];
     [_g addVertex:@"C"];
-    [_g addVertex:@"D"];
     [_g addEdgeFromVertex:@"A" to:@"B"];
     [_g addEdgeFromVertex:@"B" to:@"C"];
     [_g addEdgeFromVertex:@"C" to:@"A"];
@@ -28,18 +27,11 @@
 
 - (void)testNeighbors {
     NSArray * neighbors = [_g neighbors:@"A"];
-    NSArray * expected = @[@"",@""];
+    NSArray * expected = @[@"B",@"C"];
     for (id vertex in neighbors) {
         XCTAssert([expected containsObject:vertex],
                   @"Vertex not part of the expected results");
     }
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
 }
 
 @end
